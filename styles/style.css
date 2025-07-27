@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Pretendard','Noto Sans KR', sans-serif;
   background: #fff;
   margin: 0;
   padding: 0;
@@ -70,3 +70,30 @@ header {
   margin-bottom: 10px;
   font-weight: bold;
 }
+
+.image-stack {
+  position: relative;
+  width: 100vw;            /* 화면 가로 전체 */
+  height: auto;       /* 혹시 이미지 넘치는 것 방지 */
+  margin: 0;
+  padding: 0;
+}
+
+.image-stack img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;             /* 가로 전체 꽉 차게 */
+  height: auto;
+}
+
+.background {
+  z-index: 1;
+}
+
+.foreground {
+  z-index: 2;
+}
+
+
+
