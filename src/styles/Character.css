@@ -1,0 +1,12 @@
+
+
+.character {
+  position: absolute;
+  bottom:120px;               
+  width: 320px;             /* 크기 조절 */
+  z-index: 1;               /* 배경보다 위 */
+  pointer-events: none;     /* 클릭 막고 싶으면 */
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}

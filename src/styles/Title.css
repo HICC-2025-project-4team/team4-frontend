@@ -1,0 +1,27 @@
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 138px; /* 이건 단순히 아래로 내릴 뿐 */
+  gap: 4px; /* 글자 간 간격 */
+}
+
+.title-letter-wrapper {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.title-shadow {
+  position: absolute;
+  bottom: 0.00000000000001mm;   
+  left: 0;
+  opacity: 0.8; /* 원하면 조절 */
+  z-index: 1;
+}
+
+.title-top {
+  position: relative;
+  z-index: 2;
+}
