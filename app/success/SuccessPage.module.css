@@ -1,0 +1,65 @@
+/* app/success/SuccessPage.module.css */
+.page{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F4FBFF;
+  position: relative;
+}
+.header{
+  width: 1920px;
+  height: 84px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.title {
+  position: relative;
+  width: 187.771px;
+  height: 61px;
+  margin-left: 125px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #004EA2;
+}
+.logoCharacter{
+  
+
+  width: 101.502px;
+  height: 62px;
+  image-rendering: pixelated;
+  flex-shrink: 0;
+  aspect-ratio: 101.50/62.00;
+  margin-left: 31px;
+  
+  object-fit: cover;
+  object-position: center;
+
+
+  
+
+}
+.message {
+  width: 521px;
+  color: #05014A;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 2.4px;
+
+  margin-top: 170px;
+  margin-left: 700px;
+  
+}
+.bottomCharacter{
+  position: absolute;
+  top: 424px;
+  left: 643px;
+  width: 657px;
+  height: 415px;
+  object-fit: contain;
+  
+}
