@@ -1,0 +1,270 @@
+.page{
+  position: relative;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background: #F4FBFF;
+}
+.title{
+  width: 540px;
+  height: 39px;
+
+  background: #D9D9D9;
+
+  margin-top: 56px;
+  margin-left: 360px;
+  
+  padding: 10px 26px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.info{
+  position: absolute;
+
+  display: flex;
+  width: 421px;
+  height: 149px;
+  padding: 30px;
+  justify-content: space-between;
+  row-gap: 8px;
+  flex-wrap: wrap;
+
+  border-radius: 25px;
+  background: #FFF;
+  box-shadow: 1px 1px 4px 0 rgba(5,1,74,0.25);
+
+  top: 130px;
+  margin-left: 932px;
+}
+.name{
+  
+
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.major{
+  position: absolute;
+  left: 200px;
+  top: 33px;
+
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.submajor{
+  position: absolute;
+  left: 200px;
+  top: 80px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.semester{
+  position: relative;
+
+  display: flex;
+  width: 540px;
+  height: 400px;
+  padding: 30px;
+  gap: 8px;
+
+  border-radius: 25px;
+  border: 1px solid var(--Hongik-Medium-Gray, #989A9F);
+  background: #FFF;
+
+  margin-top: 21px;
+  margin-left: 360px;
+}
+.photo{
+  width: 504px;
+
+  position: absolute;
+  left: 28px;
+  top: 58px;
+
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.total{
+  width: 540px;
+  height: 180px;
+  padding: 30px;
+  gap: 8px;
+  
+  border-radius: 25px;
+  border: 1px solid var(--Hongik-Medium-Gray, #989A9F);
+  background: #FFF;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #000;
+
+  margin-left: 360px;
+  margin-top: 70px;
+}
+.notbox{
+  width: 589px;
+  height: 300px;
+
+  padding: 20px 28px;
+  gap: 15px;
+
+  margin-top: -300px;
+  margin-left: 932px;
+
+  border-radius: 25px;
+  border: 1px solid var(--Light-Gray, #D0D0D2);
+  background: #FFF;
+  box-shadow: 1px 1px 2px 0 rgba(255, 255, 255, 0.5) inset, -1px -1px 2px 0 rgba(0, 0, 0, 0.25) inset, 1px 1px 4px 0 rgba(5, 1, 74,0.25 );
+}
+.boxtitle{
+  width: 94px;
+  height: 25px;
+
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+  height: 40px;
+  padding: 4px;
+  gap: 5px;
+  
+  
+  
+  
+
+  border-radius: 100px;
+  background: var(--Bright-Gray, #EEEEF0);
+  box-shadow: 
+    1px 1px 2px 0 var(--Hongik-Medium-Gray, #989A9F) inset,
+    -1px -1px 2px 0 rgba(255, 255, 255, 0.50) inset;
+
+  margin-left: 200px;
+  margin-top: -25px;
+  
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  
+  
+}
+.barButton{
+  flex: 1;
+  height: 100%;
+  border-radius: 100px;
+  background:var(--Light-Gray, #EEEEF0);
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+
+  
+}
+.active{
+  padding: 10px 16px;
+  
+  border-radius: 100px;
+  background: var(--White, #FFF);
+  box-shadow: 
+    1px 1px 2px 0 rgba(3, 129, 254, 0.10) inset,
+    -1px -1px 2px 0 rgba(0, 0, 0, 0.50) inset, 
+    1px 1px 2px 0 rgba(5, 1, 74, 0.50);
+}
+.subbar{
+  display: flex;
+  
+  align-items: center;
+  
+  
+
+  border-top: 1px solid var(--Light-Gray, #D0D0D2);
+
+  margin-top: 25px;
+  padding: 10px;
+
+  color: var(--Dark-Gray, #52565F);
+  
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 18.2px */
+
+}
+
+.number{
+  width: 69px;
+  height: 38px;
+  
+  gap: 10px;
+  
+}
+.sem{
+  width: 61px;
+  height: 38px;
+  margin-left: 8px;
+}
+.na{
+  width: 300px;
+  height: 38px;
+  margin-left: 8px;
+
+}
+.grade{
+  width: 61px;
+  height: 38px;
+  margin-left: 8px;
+}
+.frame{
+  display: flex;
+  height: 129px;
+  padding: 7px 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 10px;
+  background: rgba(211, 47, 47, 0.25);
+  box-shadow: 
+    -2px -2px 3px 0 rgba(110, 66, 66, 0.50) inset, 
+    2px 2px 3px 0 rgba(255, 255, 255, 0.50) inset;
+
+  margin-top: -25px;
+  
+}
+.check{
+  width: 500px;
+  height: 16px;
+
+  text-align: right;
+  
+  color: var(--Dark-Gray, #52565F);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 15.6px */
+
+  margin-top: 15px;
+  
+}

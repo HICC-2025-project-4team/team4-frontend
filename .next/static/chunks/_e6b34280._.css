@@ -1,0 +1,60 @@
+/* [project]/app/success/SuccessPage.module.css [app-client] (css) */
+.SuccessPage-module__pP9MnW__page {
+  background: #f4fbff;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.SuccessPage-module__pP9MnW__title {
+  width: 32.5625rem;
+  color: var(--Hongik-Midnight-Blue, #05014a);
+  text-align: center;
+  letter-spacing: .15rem;
+  margin: 12rem auto 0;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 5.625rem;
+}
+
+.SuccessPage-module__pP9MnW__ImageWrapper {
+  aspect-ratio: 657 / 415;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 20rem;
+  margin: 2rem auto 0;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .SuccessPage-module__pP9MnW__title {
+    width: 90%;
+    margin-top: 5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .SuccessPage-module__pP9MnW__ImageWrapper {
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+
+/* [project]/components/Header/Haeder.module.css [app-client] (css) */
+.Haeder-module__FbgP4G__header {
+  background: #fff;
+  width: 1920px;
+  height: 90px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.Haeder-module__FbgP4G__logoCharacter {
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .5));
+  align-items: center;
+  height: 100%;
+  margin-left: 31px;
+  display: flex;
+}
+
+/*# sourceMappingURL=_e6b34280._.css.map*/

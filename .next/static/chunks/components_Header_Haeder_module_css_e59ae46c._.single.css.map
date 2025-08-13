@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/Header/Haeder.module.css"],"sourcesContent":[".header{\r\n  width: 1920px;\r\n  height: 90px;\r\n  background: #FFF;\r\n  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);\r\n}\r\n.logoCharacter{\r\n  display: flex;\r\n  align-items: center;\r\n  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.50));\r\n  height: 100%;\r\n\r\n  margin-left: 31px;\r\n  \r\n}"],"names":[],"mappings":"AAAA;;;;;;;AAMA"}}]
+}

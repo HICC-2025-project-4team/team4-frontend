@@ -1,0 +1,169 @@
+/* [project]/app/upload/Upload.module.css [app-client] (css) */
+header {
+  z-index: 1000;
+  background: #fff;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  transition: opacity .5s;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+header.Upload-module__rkV9kG__fade-out {
+  opacity: 0;
+}
+
+.Upload-module__rkV9kG__page {
+  box-sizing: border-box;
+  background-color: #f4fbff;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 820px;
+  padding-left: 360px;
+  display: flex;
+}
+
+.Upload-module__rkV9kG__textbox {
+  color: #21272a;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1140px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.Upload-module__rkV9kG__title {
+  text-align: left;
+  width: 100%;
+  height: 46px;
+  margin: 20px 0 10px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.Upload-module__rkV9kG__subtitle {
+  text-align: left;
+  width: 100%;
+  height: 25px;
+  margin: 10px 0 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.Upload-module__rkV9kG__uploadbox {
+  border: 1px solid var(--Hongik-Medium-Gray, #989a9f);
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 25px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 1100px;
+  min-height: 600px;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+}
+
+.Upload-module__rkV9kG__imagebox {
+  background-color: #edf6ff;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  height: 450px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.Upload-module__rkV9kG__message {
+  color: #000;
+  text-align: center;
+  width: 100%;
+  max-width: 1008px;
+  height: 25px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.Upload-module__rkV9kG__btn {
+  background: var(--Hongik-Azure-Blue, #0381fe);
+  color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 202px;
+  height: 48px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color .2s;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .Upload-module__rkV9kG__page {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Upload-module__rkV9kG__page {
+    padding-left: 20px;
+  }
+
+  .Upload-module__rkV9kG__title {
+    font-size: 24px;
+  }
+
+  .Upload-module__rkV9kG__subtitle {
+    font-size: 14px;
+  }
+
+  .Upload-module__rkV9kG__uploadbox {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .Upload-module__rkV9kG__btn {
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+  }
+}
+
+/* [project]/components/Header/Haeder.module.css [app-client] (css) */
+.Haeder-module__FbgP4G__header {
+  background: #fff;
+  width: 1920px;
+  height: 90px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.Haeder-module__FbgP4G__logoCharacter {
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .5));
+  align-items: center;
+  height: 100%;
+  margin-left: 31px;
+  display: flex;
+}
+
+/*# sourceMappingURL=_ca41a982._.css.map*/
