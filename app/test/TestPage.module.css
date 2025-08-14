@@ -1,0 +1,160 @@
+:global(header) {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #FFF;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 60px;
+  transition: opacity 0.5s ease;
+}
+
+/* 스크롤 시 투명도 조절 (스크롤 제어용 클래스 예시) */
+:global(header).fade-out {
+  opacity: 0;
+}
+
+/* page는 왼쪽 여백 포함 영역 */
+.page {
+  width: 100%;
+  height: 820px;
+  
+  background-color: #F4FBFF;
+
+  padding-left: 360px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+  /* overflow-y: auto; 제거하여 스크롤바 한 개만 */
+}
+
+/* textbox와 uploadbox */
+.textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #21272A;
+
+  max-width: 1140px;
+  width: 100%;
+  margin-top: 10px; /* margin-top 줄임 */
+}
+
+.title {
+  height: 46px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 110%;
+  margin: 20px 0 10px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.subtitle {
+  width: 100%;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 10px 0 30px 0;
+  text-align: left;
+}
+
+.uploadbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  max-width: 1100px;
+  min-height: 600px;
+  padding: 30px;
+  gap: 8px;
+  border-radius: 25px;
+  border: 1px solid var(--Hongik-Medium-Gray, #989A9F);
+  background-color: #FFF;
+  margin: 0px 0;
+  box-sizing: border-box;
+}
+
+.imagebox {
+  width: 100%;
+  max-width: 1000px;
+  height: 450px;
+  margin-top: 5px;
+  border-radius: 30px;
+  background-color: #EDF6FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  width: 100%;
+  max-width: 1008px;
+  height: 25px;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 202px;
+  height: 48px;
+  gap: 4px;
+  background: var(--Hongik-Azure-Blue, #0381FE);
+  color: #FFFFFF;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  margin-top: 20px;
+}
+
+/* 반응형 */
+@media (max-width: 1024px) {
+  .page {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-left: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .uploadbox {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+  }
+} 
