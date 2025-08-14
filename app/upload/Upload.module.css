@@ -19,9 +19,8 @@
 
 /* page는 왼쪽 여백 포함 영역 */
 .page {
-  position: relative;
   width: 100%;
-  height: 100vsh;
+  height: 820px;
   
   background-color: #F4FBFF;
 
@@ -64,9 +63,8 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 140%;
-  margin: 0px 0 30px 0;
+  margin: 10px 0 30px 0;
   text-align: left;
-  
 }
 
 .uploadbox {

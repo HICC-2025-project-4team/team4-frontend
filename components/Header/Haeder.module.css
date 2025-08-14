@@ -4,7 +4,7 @@
   background: #FFF;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.Title{
+.logoCharacter{
   display: flex;
   align-items: center;
   filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.50));

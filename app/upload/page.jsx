@@ -56,13 +56,8 @@ export default function UploadPage() {
       {/* 컨텐츠 영역: 왼쪽 여백 포함 */}
       <div className={styles.page}>
         <div className={styles.textbox}>
-          <div className={styles.title}>
-            성적표를 업로드 해 주세요.
-          
-          </div>
+          <div className={styles.title}>성적표를 업로드 해 주세요.</div>
           <div className={styles.subtitle}>
-            한 장의 파일에 하나의 학기만 포함되도록 해주세요
-            <br />
             5MB 이하의 PDF, PNG 형식의 파일이 업로드 가능합니다.
           </div>
         </div>

@@ -7,10 +7,10 @@ import styles from "./Haeder.module.css";
 export default function Header(){
   return(
     <header className={styles.header}>
-      <div className={styles.Title}>
+      <div className={styles.logoCharacter}>
         <Image
-          src="/title.svg"
-          alt="Title"
+          src="/character.png"
+          alt="Character"
           width={101}
           height={62}
         />
